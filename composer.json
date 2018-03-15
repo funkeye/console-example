@@ -1,0 +1,5 @@
+{
+    "require": {
+        "pinzweb/console": "dev-master"
+    }
+}

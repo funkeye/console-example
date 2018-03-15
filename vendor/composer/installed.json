@@ -1,0 +1,41 @@
+[
+    {
+        "name": "pinzweb/console",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/funkeye/console.git",
+            "reference": "ff0406f62442de57f28dd369349ad8ed3059c92f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/funkeye/console/zipball/ff0406f62442de57f28dd369349ad8ed3059c92f",
+            "reference": "ff0406f62442de57f28dd369349ad8ed3059c92f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.1.0"
+        },
+        "time": "2018-03-15T08:12:11+00:00",
+        "type": "package",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "pinzweb\\Console\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "mit"
+        ],
+        "authors": [
+            {
+                "name": "Daniel Fankhauser",
+                "email": "daniel@pinzweb.at",
+                "homepage": "http://www.pinzweb.at"
+            }
+        ],
+        "description": "A Package to make a console like interface"
+    }
+]

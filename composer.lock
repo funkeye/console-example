@@ -1,0 +1,57 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "79c57cb974d81b473b29c52671f809b5",
+    "packages": [
+        {
+            "name": "pinzweb/console",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/funkeye/console.git",
+                "reference": "ff0406f62442de57f28dd369349ad8ed3059c92f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/funkeye/console/zipball/ff0406f62442de57f28dd369349ad8ed3059c92f",
+                "reference": "ff0406f62442de57f28dd369349ad8ed3059c92f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "pinzweb\\Console\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "mit"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Fankhauser",
+                    "email": "daniel@pinzweb.at",
+                    "homepage": "http://www.pinzweb.at"
+                }
+            ],
+            "description": "A Package to make a console like interface",
+            "time": "2018-03-15 08:12:11"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "pinzweb/console": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
